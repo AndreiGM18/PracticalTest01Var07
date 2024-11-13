@@ -25,7 +25,7 @@ class PracticalTest01Var07Service : Service() {
             // Send the local broadcast
             LocalBroadcastManager.getInstance(this@PracticalTest01Var07Service).sendBroadcast(broadcastIntent)
 
-            handler.postDelayed(this, 3000)
+            handler.postDelayed(this, 10000)
         }
     }
 
